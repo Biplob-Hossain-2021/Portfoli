@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.clr {
+    clear: both;
+}
+
+.center {
+    text-align: center;
+}
+.card-bg{
+    background: #D6C6B2 !important; 
+}
+
+.ml-40 {
+    margin-left: 40px;
+}
+
+.ml-30 {
+    margin-right: 30px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.full-wraper {
+    width: 100%
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* Nav area */
+.nav-bg {
+    position: absolute;
+
+}
+
+.nav-bg .nav .logo-area {
+    padding-top: 30px;
+    padding-left: 200px;
+    width: 180px;
+    float: left;
+
+
+}
+
+.nav-bg .nav .nav-area ul {
+    float: right;
+
+
+}
+
+.nav-bg .nav .nav-area ul li {
+    float: left;
+    padding-top: 58px;
+
+
+}
+
+.nav-bg .nav .nav-area ul li a {
+    padding-left: 45px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #222222;
+
+
+}
+
+/* Banner area  */
+
+.banner-bg {
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    
+
+    
+}
+.banner-bg .banner .banner-area {
+    text-align: center;
+    padding-top: 240px;
+    padding-bottom: 175px;
+    position: relative;
+    
+}
+
+.banner-bg .banner .banner-area .content {
+    position: absolute;
+    top: 50%;
+    left: 61%;
+}
+
+.banner-bg .banner .banner-area .content h3{
+    margin-right: 50px;
+}
+
+/* About Area Start */
+.about-bg {
+    padding-top: 100px;
+
+
+}
+
+.about-bg .about .about-img {
+    width: 465px;
+    float: left;
+    position: relative;
+
+}
+
+.about-bg .about .about-img .shape {
+    position: absolute;
+    top: 0px;
+    left: 67px;
+    z-index: -1;
+
+
+}
+
+.about-bg .about .about-content {
+    float: left;
+    width: 670px;
+    padding-left: 100px;
+}
+
+.about-bg .about .about-content h3 {
+    font-size: 32px;
+    color: #222222;
+    text-transform: capitalize;
+    padding-bottom: 60px;
+}
+
+.about-bg .about .about-content p {
+    font-size: 14px;
+    padding-bottom: 90px;
+
+}
+
+.about-bg .about .about-content h4 {
+    padding-bottom: 30px;
+    font-size: 24px;
+    color: #222222;
+
+}
+
+.about-bg .about .about-content ul li {
+    display: inline-block;
+}
+
+/* Services Area Start */
+.services-bg {
+    background: #f7f6f6;
+
+}
+
+.services-bg .services .services-heading h3 {
+    padding-top: 60px;
+    font-size: 32px;
+    color: #222222;
+    padding-bottom: 60px;
+
+}
+
+.services-bg .services .services-content {
+    width: 350px;
+    float: left;
+}
+
+.services-bg .services .services-content {
+    position: relative;
+    z-index: 2;
+}
+
+.services-bg .services .services-content .services-shape {
+    position: absolute;
+    top: -10px;
+    left: -15px;
+    z-index: -1
+}
+
+.services-bg .services .services-content h3 {
+    padding-top: 40px;
+}
+
+.services-bg .services .services-content p {
+    padding-top: 30px;
+    line-height: 18px;
+    padding-bottom: 150px;
+}
+
+.services-bg .services .services-content:last-of-type {
+    margin-left: none;
+}
+
+/* Portfolio Area Start */
+.portfolio-bg {
+    padding-top: 100px;
+}
+
+.portfolio {}
+
+.portfolio-bg .portfolio .portfolio-area {
+    width: 370px;
+    float: left;
+    position: relative;
+
+
+}
+
+
+.portfolio-bg .portfolio .portfolio-area img {
+    width: 100%;
+
+}
+
+.portfolio-bg .portfolio .portfolio-area .overly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #dcbea8;
+    opacity: 0;
+    width: 100%;
+    /* height: 100%; */
+    overflow: hidden;
+    text-align: center;
+    transition: .4s;
+
+}
+
+.portfolio-bg .portfolio .portfolio-area .overly h3 {
+    padding-top: 370px;
+    color: #222222;
+    font-size: 20px;
+
+}
+
+.portfolio-bg .portfolio .portfolio-area .overly h5 {
+    color: #baaa97;
+    padding-top: 12px;
+    font-size: 16px;
+    padding-bottom: 28px;
+}
+
+.portfolio-bg .portfolio .portfolio-area .overly:hover {
+    opacity: .75;
+}
+
+.portfolio-bg .portfolio .portfolio-heading {
+    float: left;
+
+}
+
+.portfolio-bg .portfolio .portfolio-heading h3 {
+    font-size: 32px;
+    color: #222222;
+}
+
+.portfolio-bg .portfolio .portfolio-heading ul li {
+    padding: 25px 0;
+}
+
+.portfolio-bg .portfolio .portfolio-heading ul li a {
+    font-size: 20px;
+    color: #222222;
+}
+
+.portfolio-bg .portfolio .portfolio-heading ul li.active a {
+    color: #dcb8b8;
+    padding-left: 40px;
+}
+
+
+
+
+
+/* =========== Blog Content Area ================= */
+.blog-bg{
+    background: #f1f1f1;
+    padding-top: 100px;
+    padding-bottom: 165px;
+}
+.blog-bg .blog .blog-area .blog-heding {
+    text-align: center;
+
+}
+
+.blog-bg .blog .blog-area .blog-heding h3 {
+    padding-bottom: 65px;
+
+}
+
+.blog-bg .blog .full-blog-area{
+    width: 670px;
+    float: left;
+}
+.blog-bg .blog .blog-area .full-blog-area .blog-img img{
+    float: left;
+    width:270px;
+    overflow: hidden;
+    
+
+}
+.blog-bg .blog .blog-area .full-blog-area .blog-content{
+    float: right;
+    width: 400px;
+    background: #dddd;
+    padding-left: 40px;
+
+}
+.blog-bg .blog .blog-area .blog-content span{
+    padding-top: 30px;
+    display: inline-block;
+}
+.blog-bg .blog .blog-area .blog-content .common{
+    padding-left: 30px;
+}
+.blog-bg .blog .blog-area .blog-content h3{
+    padding-top: 30px;
+    padding-bottom: 35px;
+    font-size: 20px;
+    color: #222222;
+}
+.blog-bg .blog .blog-area .blog-content p{
+   line-height: 20px;
+   padding-bottom: 35px;
+   font-size: 14px;
+}
+.blog-bg .blog .blog-area .blog-content .right{
+    float: right;
+    padding-bottom: 35px;
+}
+.blog-bg .blog .blog-area .blog-content  i{
+   padding-left: 10px;
+}
+.blog-bg .blog .blog-area .blog-content a {
+   font-size: 20px;
+   text-transform: uppercase;
+}
+.blog-bg .blog .blog-area .blog-content a i{
+    padding-left: 10px;
+}
+
+
+.blog-bg .blog .full-blog-area-2{
+    width: 470px;
+    float: right;
+    overflow: hidden;
+}
+.blog-bg .blog .full-blog-area-2{
+    background: #d6c6b2;
+}
+.blog-bg .blog .full-blog-area-2 .pd-l{
+    padding-left: 30px;
+}
+
+/* get in touch Area Start */
+.get-bg{
+    background: #000;
+}
+.get-bg .get{
+    height: 100%;
+    background: rgb(110, 26, 26);
+}
+.get-bg .get .git-in-area{
+    width: 400px;
+    background: rgb(10, 124, 80);
+    float: left;
+    padding-top: 100px;
+
+}
+.get-bg .get .contact-form{
+    width: 770px;
+    background: rgb(60, 87, 77);
+    float: left;
+    padding-top: 100px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    
+}
+.get-bg .get .contact-form .contact {
+    position: relative;
+}
+.get-bg .get .contact-form .contact .shape-2  {
+    position: absolute;
+    left: 182px;
+    bottom: 1px;
+   
+}
+.get-bg .get .contact-form .contact i{
+    position: absolute;
+    left: 220px;
+    bottom: 3px;
+}
+.get-bg .get .contact-form .contact input{
+    width: 300px;
+    padding: 7px ;
+}
+.get-bg .get .contact-form .contact textarea{
+    width: 600px;
+}
+
+
+/* Pricing plan Area Start */
+.pricing-bg{
+    background: #ffffff;
+    padding-bottom: 30px;
+    
+  
+}
+.pricing-bg .pricing{
+    
+}
+.pricing-bg .pricing .pricing-heading{
+    padding-top: 100px;
+}
+.pricing-bg .pricing .pricing-heading h3{
+    font-size: 32px;
+    padding-bottom: 70px;
+}
+.pricing-bg .pricing .card-area{
+    width: 370px;
+    float: left;
+    /* overflow: hidden; */
+    background: #F1F1F1;
+    padding-bottom: 30px;
+    text-align: center;
+}
+/* .pricing-bg .pricing .card-area .card .card-img {
+    position: relative;
+}
+
+.pricing-bg .pricing .card-area .card .card-img .sh-plan {
+    position: absolute;
+    top: 20px;
+    left: 166px;
+    
+    
+} */
+.pricing-bg .pricing .card-area .card h3{
+    background: #DDDDDD;
+    font-size: 20px;
+    color: #222222;
+    padding: 10px 0;
+   
+}
+.pricing-bg .pricing .card-area .card .card-img span img{
+   padding-top: 25px;
+}
+.pricing-bg .pricing .card-area .card p{
+   padding-top: 25px;
+   font-size: 60px;
+   position: relative;
+}
+.pricing-bg .pricing .card-area .card p::before{
+   position: absolute;
+   content: '';
+   bottom: 0;
+   left: 70px;
+   background: #e4e4e4;
+   width: 230px;
+   height: 2px;
+}
+.pricing-bg .pricing .card-area .card ul li{
+    padding: 15px 0;
+    font-size: 14px;
+}
+.pricing-bg .pricing  .buy-btn {
+    font-size: 14px;
+    padding: 10px 10px;
+    border: 1px solid #868686;
+    text-transform: uppercase;
+    /* padding-bottom: 30px; */
+}
+
+
+
+ 
+
